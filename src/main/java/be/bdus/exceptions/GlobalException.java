@@ -21,4 +21,5 @@ public abstract class GlobalException extends RuntimeException{
         this.status = status;
         this.error = error;
     }
+
 }

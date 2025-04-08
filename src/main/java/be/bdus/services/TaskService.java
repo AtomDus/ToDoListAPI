@@ -20,4 +20,5 @@ public interface TaskService {
     TaskDTO findById(Long id);
 
     Task deleteTask(Long id);
+
 }

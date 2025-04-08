@@ -9,5 +9,6 @@ public record TaskDTO(
 ) {
     public static TaskDTO fromTask(Task task) {
         return new TaskDTO(task.getId(), task.getTitle(), task.getDescription());
+
     }
 }
