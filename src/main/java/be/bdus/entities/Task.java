@@ -26,4 +26,9 @@ public class Task extends BaseEntity<Long> {
     }
 
     public Task() {}
+
+    public Task(long l, String oldTitle, String oldDescription) {
+        this.title = oldTitle;
+        this.description = oldDescription;
+    }
 }
